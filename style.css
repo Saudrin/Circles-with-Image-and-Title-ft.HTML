@@ -1,0 +1,29 @@
+.container {
+    display: flex; /* Activate flexbox for the container */
+    flex-direction: row; /* Arrange items in a row */
+}
+
+.container img { 
+    margin-right: 10px; /* Add spacing between images */
+}
+
+.circle {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%;
+    text-align: center; 
+    margin: 30px;   
+}
+
+.circle img {
+    width: 120%;       
+    height: auto;     
+    display: block;    
+    margin: 0 auto 5px auto;
+    border-radius: 60%; 
+    overflow: hidden;  
+}
+
+.title {
+    color: #00d9ff;
+}
